@@ -76,7 +76,13 @@ fun HomeScreen(user: User){
         )
 
         Text(
-            text = "Inicio: ${user.registerDate}",
+            text = "Data de Nascimento: ${user.DataNasc}",
+            modifier = Modifier.padding(top = 4.dp),
+            fontSize = 16.sp
+        )
+
+        Text(
+            text = "Série: ${user.Serie}",
             modifier = Modifier.padding(top = 4.dp),
             fontSize = 16.sp
         )

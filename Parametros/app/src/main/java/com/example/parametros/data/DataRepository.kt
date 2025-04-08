@@ -6,9 +6,10 @@ val vinicius = User(
     avatarUrl = null,
     age = 17,
     score = 75,
-    registerDate = "04/02/2008",
-    email = "vinicius@etec.sp.gov.br",
-    bio = "Estou aprendendo passar parâmetros em Jetpack Compose"
+    DataNasc = "04/02/2008",
+    email = "vinicius.lima@etec.sp.gov.br",
+    bio = " Estou criando um aplicativo com passagem de parâmetros;",
+    Serie = "3º AMS"
 )
 
 
@@ -19,9 +20,10 @@ val marcelo = User(
     avatarUrl = null,
     age = 51,
     score = 90,
-    registerDate = "15/06/1973",
+    DataNasc = "15/06/1973",
     email = "marcelo.collado@etec.sp.gov.br",
-    bio = "Passei os parametros de usuarios"
+    bio = "Passei os parametros de usuarios",
+    Serie = "Formado"
 )
 
 fun getUserData(userName: String): User? {
